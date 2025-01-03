@@ -16,7 +16,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
   }
   
   try {
-    const response = await fetch('https://contact-form-worker.indunissanka.workers.dev', {
+    const response = await fetch('https://contact-form-worker.indunissanka.workers.dev/submit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
