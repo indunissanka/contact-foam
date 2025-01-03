@@ -35,14 +35,3 @@ document.getElementById('contactForm').addEventListener('submit', async function
     console.error('Error:', error);
   }
 });
-
-function validateEmail(email) {
-  const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return re.test(String(email).toLowerCase());
-}
-
-function showResponse(message, type) {
-  const responseElement = document.getElementById('responseMessage');
-  responseElement.textContent = message;
-  responseElement.style.color = type === 'error' ? '#dc3545' : '#28a745';
-}
