@@ -1,0 +1,8 @@
+name = "contact-form-worker"
+main = "worker.js"
+compatibility_date = "2023-10-15"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "contact-form-db"
+database_id = "f9e43b44-d8ad-414d-9168-9a9b89ccc26e"
